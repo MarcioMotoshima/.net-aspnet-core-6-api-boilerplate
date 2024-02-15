@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\APIV1.Domain\APIV1.Domain.csproj" />
+    <ProjectReference Include="..\APIV1.Persistence\APIV1.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

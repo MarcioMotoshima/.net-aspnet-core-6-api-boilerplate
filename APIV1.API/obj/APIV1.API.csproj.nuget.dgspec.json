@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.API\\APIV1.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.API\\APIV1.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.API\\APIV1.API.csproj",
+        "projectName": "APIV1.API",
+        "projectPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.API\\APIV1.API.csproj",
+        "packagesPath": "C:\\Users\\penta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\penta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Application\\APIV1.Application.csproj": {
+                "projectPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Application\\APIV1.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Application\\APIV1.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Application\\APIV1.Application.csproj",
+        "projectName": "APIV1.Application",
+        "projectPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Application\\APIV1.Application.csproj",
+        "packagesPath": "C:\\Users\\penta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\penta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Domain\\APIV1.Domain.csproj": {
+                "projectPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Domain\\APIV1.Domain.csproj"
+              },
+              "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Persistence\\APIV1.Persistence.csproj": {
+                "projectPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Persistence\\APIV1.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Domain\\APIV1.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Domain\\APIV1.Domain.csproj",
+        "projectName": "APIV1.Domain",
+        "projectPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Domain\\APIV1.Domain.csproj",
+        "packagesPath": "C:\\Users\\penta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\penta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Persistence\\APIV1.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Persistence\\APIV1.Persistence.csproj",
+        "projectName": "APIV1.Persistence",
+        "projectPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Persistence\\APIV1.Persistence.csproj",
+        "packagesPath": "C:\\Users\\penta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\penta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Domain\\APIV1.Domain.csproj": {
+                "projectPath": "C:\\Users\\penta\\OneDrive\\Área de Trabalho\\.net-aspnet-core-6-api-boilerplate\\APIV1.Domain\\APIV1.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
